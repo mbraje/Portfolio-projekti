@@ -9,13 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mbraje/Portfolio-projekti"
   },
   "keywords": [],
   "author": "Marcel Braje",
   "license": "ISC",
-  "bugs": {
-    "url": ""
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
