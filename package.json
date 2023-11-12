@@ -1,11 +1,11 @@
 {
   "name": "portfolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": "false",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build src/index.html -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "./",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
