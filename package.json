@@ -1,11 +1,11 @@
 {
   "name": "portfolio",
   "version": "1.0.1",
-  "private": "false",
+  "private": false,
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html && copyfiles -u 1 src/**/*.png dist"
   },
   "repository": {
     "type": "git",
@@ -14,9 +14,9 @@
   "keywords": [],
   "author": "Marcel Braje",
   "license": "ISC",
-  },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
+    "copyfiles": "^2.4.1",
     "parcel": "^2.8.2",
     "prettier": "^2.8.1"
   },
