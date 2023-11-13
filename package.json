@@ -4,9 +4,9 @@
   "private": false,
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build src/index.html && copyfiles -u 1 src/**/*.png dist"
-  },
+  "start": "npx parcel",
+  "build": "npx parcel build src/index.html && copyfiles -u 1 src/**/*.png dist"
+},
   "repository": {
     "type": "git",
     "url": "https://github.com/mbraje/Portfolio-projekti"
